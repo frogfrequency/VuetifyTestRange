@@ -1,6 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import HomeView from '../views/HomeView.vue'
+import MonstersView from '../views/MonstersView.vue'
+import EquipmentView from '../views/EquipmentView.vue'
+import SpellsView from '../views/SpellsView.vue'
+import RulesView from '../views/RulesView.vue'
+import AboutView from '../views/AboutView.vue'
+
+
+
 
 Vue.use(VueRouter)
 
@@ -9,6 +18,26 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/monsters',
+    name: 'monsters',
+    component: MonstersView
+  },
+  {
+    path: '/equipment',
+    name: 'equipment',
+    component: EquipmentView
+  },
+  {
+    path: '/spells',
+    name: 'spells',
+    component: SpellsView
+  },
+  {
+    path: '/rules',
+    name: 'rules',
+    component: RulesView
   },
   {
     path: '/about',

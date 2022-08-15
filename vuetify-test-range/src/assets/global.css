@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap");
+
+
+
+.v-tab {
+  font-size: 14px;
+  font-weight: 900;
+}
+* {
+  font-family: Rosarivo;
+}
+.container {
+  margin-left:16px;
+}

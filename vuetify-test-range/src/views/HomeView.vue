@@ -1,16 +1,15 @@
 <template>
-  <div class="home">
-    <h1>hello</h1>
-    <v-btn>hello</v-btn>
-  </div>
+  <h2>welcome to dnd tooltip </h2>
 </template>
 
-<script>
-// @ is an alias to /src
 
-export default {
-  name: 'HomeView',
-  components: {
+<script>
+
+  export default {
+    name: 'HomeView',
+
+    components: {
+      //
+    },
   }
-}
 </script>
