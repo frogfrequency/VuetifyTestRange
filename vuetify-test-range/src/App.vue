@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <Navbar />
-    <v-main>
-      <v-container class="container">
-        <keep-alive>
-          <router-view />
+    <v-main class="v-main-container">
+      <v-container fluid class="pa-0 ma-0" >
+        <keep-alive >
+          <router-view/>
         </keep-alive>
       </v-container>
     </v-main>
@@ -25,3 +25,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.v-main-container {
+  margin: 24px;
+}
+
+
+</style>
