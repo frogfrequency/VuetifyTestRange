@@ -188,7 +188,7 @@ export default {
     async getMonstersFromAPI() {
       // this should not be here --> better export it to an external service..
       this.usingApiData = true;
-      const response = await fetch("https://api.open5e.com/monsters/?limit=20");
+      const response = await fetch("https://api.open5e.com/monsters/?limit=2000");
       const data = await response.json();
       this.monsters = data.results;
       this.usingApiData = false;
