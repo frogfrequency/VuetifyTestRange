@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Favorites</h3>
+    <h2>Favorites</h2>
 
   <!-- <v-container> -->
     <div class="test">

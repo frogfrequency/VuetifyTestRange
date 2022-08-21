@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3>Random Monster</h3>
-    <v-btn small @click="giveRandomMonsterIdx(monsters.length)">new random monster</v-btn>
+    <h2>Random Monster</h2>
+    <v-btn small class="my-4" @click="giveRandomMonsterIdx(monsters.length)">new random monster</v-btn>
 
     <MonsterCard
       v-show="!monsterListView"

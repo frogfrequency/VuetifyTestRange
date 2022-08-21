@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3>Encounters</h3>
-    <h2>contains: {{ this.monsters.length }} monsters</h2>
+    <h2>Encounters</h2>
   </div>
 </template>
 

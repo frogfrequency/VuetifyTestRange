@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3>find monsters</h3>
-    <h2>{{ this.monsters.length }}</h2>
+    <h2>Find Monsters</h2>
   </div>
 </template>
 

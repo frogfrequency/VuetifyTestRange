@@ -37,7 +37,16 @@
         </div>
     </div>
     <v-card-actions class="pa-0 pt-0">
-      <v-btn small class="mr-2">DETAILS</v-btn>
+      <v-btn
+        class="mr-2"
+        small
+        link
+        :to="`/monsters/${monster.slug}`"
+        @click="createNewRoute(monster.slug)"
+        >DETAILS</v-btn
+      >
+
+
       <v-btn
         v-show="!isFavorit"
         small
@@ -56,6 +65,9 @@
 
 
 <script>
+
+import router from "../../router/index.js";
+
 export default {
   props: {
     monster: Object,

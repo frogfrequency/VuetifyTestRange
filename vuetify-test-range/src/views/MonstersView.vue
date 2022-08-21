@@ -3,7 +3,7 @@
     <!-- <v-btn @click="logLongestMonsterName">log longest monster name</v-btn> -->
     <div class="title-container">
       <div class="title-container-leftside">
-        <img class="logogo" src="@/assets/images/dragon_ampersand.svg" />
+        <img class="logo" src="@/assets/images/dragon_ampersand.svg" />
         <h2 style="font-weight: 600">Monsters</h2>
         <v-btn class="ml-4" @click="getMonstersFromAPI" small
           >get API data</v-btn
@@ -97,69 +97,69 @@ export default {
       monsterListView: false, // default is card-view
       activeTab: "FindMonster",
       monsters: [
-        {
-          slug: "skeleton",
-          name: "Skeleton",
-          size: "Medium",
-          type: "undead",
-          subtype: "",
-          group: "Skeletons",
-          alignment: "lawful evil",
-          armor_class: 13,
-          armor_desc: "armor scraps",
-          hit_points: 13,
-          hit_dice: "2d8+4",
-          speed: {
-            walk: 30,
-          },
-          strength: 10,
-          dexterity: 14,
-          constitution: 15,
-          intelligence: 6,
-          wisdom: 8,
-          charisma: 5,
-          strength_save: null,
-          dexterity_save: null,
-          constitution_save: null,
-          intelligence_save: null,
-          wisdom_save: null,
-          charisma_save: null,
-          perception: null,
-          skills: {},
-          damage_vulnerabilities: "bludgeoning",
-          damage_resistances: "poison",
-          damage_immunities: "",
-          condition_immunities: "exhaustion, poisoned",
-          senses: "darkvision 60 ft., passive Perception 9",
-          languages:
-            "understands the languages it knew in life but can't speak",
-          challenge_rating: "1/4",
-          actions: [
-            {
-              name: "Shortsword",
-              desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-              attack_bonus: 4,
-              damage_dice: "1d6",
-              damage_bonus: 2,
-            },
-            {
-              name: "Shortbow",
-              desc: "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-              attack_bonus: 4,
-              damage_dice: "1d6",
-              damage_bonus: 2,
-            },
-          ],
-          reactions: "",
-          legendary_desc: "",
-          legendary_actions: "",
-          special_abilities: "",
-          spell_list: [],
-          img_main: null,
-          document__slug: "wotc-srd",
-          document__title: "Systems Reference Document",
-          document__license_url: "http://open5e.com/legal",
-        },
+        // {
+        //   slug: "skeleton",
+        //   name: "Skeleton",
+        //   size: "Medium",
+        //   type: "undead",
+        //   subtype: "",
+        //   group: "Skeletons",
+        //   alignment: "lawful evil",
+        //   armor_class: 13,
+        //   armor_desc: "armor scraps",
+        //   hit_points: 13,
+        //   hit_dice: "2d8+4",
+        //   speed: {
+        //     walk: 30,
+        //   },
+        //   strength: 10,
+        //   dexterity: 14,
+        //   constitution: 15,
+        //   intelligence: 6,
+        //   wisdom: 8,
+        //   charisma: 5,
+        //   strength_save: null,
+        //   dexterity_save: null,
+        //   constitution_save: null,
+        //   intelligence_save: null,
+        //   wisdom_save: null,
+        //   charisma_save: null,
+        //   perception: null,
+        //   skills: {},
+        //   damage_vulnerabilities: "bludgeoning",
+        //   damage_resistances: "poison",
+        //   damage_immunities: "",
+        //   condition_immunities: "exhaustion, poisoned",
+        //   senses: "darkvision 60 ft., passive Perception 9",
+        //   languages:
+        //     "understands the languages it knew in life but can't speak",
+        //   challenge_rating: "1/4",
+        //   actions: [
+        //     {
+        //       name: "Shortsword",
+        //       desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        //       attack_bonus: 4,
+        //       damage_dice: "1d6",
+        //       damage_bonus: 2,
+        //     },
+        //     {
+        //       name: "Shortbow",
+        //       desc: "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        //       attack_bonus: 4,
+        //       damage_dice: "1d6",
+        //       damage_bonus: 2,
+        //     },
+        //   ],
+        //   reactions: "",
+        //   legendary_desc: "",
+        //   legendary_actions: "",
+        //   special_abilities: "",
+        //   spell_list: [],
+        //   img_main: null,
+        //   document__slug: "wotc-srd",
+        //   document__title: "Systems Reference Document",
+        //   document__license_url: "http://open5e.com/legal",
+        // },
       ],
       favorites: [],
     };
@@ -243,7 +243,8 @@ export default {
   margin: 16px;
 }
 
-.logogo {
-  height: 30px;
+.logo {
+  height: 40px;
+  margin: 8px 8px 16px 8px;
 }
 </style>
